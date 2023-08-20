@@ -1,0 +1,12 @@
+Doubts:
+Difference between \n and \r and EOF in input. How to differentiate? Is while((c = getchar()) != '\n') 
+then s[i] = '\0' same as scanf. scanf("%s\n", s) in demo is something different.
+Code:
+#include <stdio.h>
+
+void main()
+{
+    char s[50];
+    scanf("%s\n", s);
+    printf("%i", s[5]);
+}

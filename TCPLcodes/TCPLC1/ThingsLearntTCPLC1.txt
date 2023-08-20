@@ -1,0 +1,11 @@
+Things learnt from TCPLC1:
+
+1. #define name replacement text - global symbolic constant across full program after the point at which it is typed.
+2. %6.1f - meaning atleast 6 characters wide format.
+3.fgetc(FILE *stream) - reads from stream once. getc(stream) does so multiple times. stdin is file pointer to input screen as a file with read "r" function. getc(stdin) = getchar()
+4. int to char typecasting takes place implicitly most of the time, especially in getchar and putchar and their derivatives.
+5. Similarly, putc is fputc(stream) but repeatedly run. putc(c, stdout) = putchar(c). stdout is file pointer to monitor with write "w" or append "a" function.
+6. exprog12.c is amazing for a new logic. we define states for IN a word and OUT of a word.
+7.   
+
+Doubts: 1-19.c, 1-17.c, 
